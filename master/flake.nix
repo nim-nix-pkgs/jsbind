@@ -11,6 +11,7 @@
   inputs.src-jsbind-master.ref   = "refs/heads/master";
   inputs.src-jsbind-master.owner = "yglukhov";
   inputs.src-jsbind-master.repo  = "jsbind";
+  inputs.src-jsbind-master.dir   = "";
   inputs.src-jsbind-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
