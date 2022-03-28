@@ -13,13 +13,13 @@
   inputs.src-jsbind-master.repo  = "jsbind";
   inputs.src-jsbind-master.type  = "github";
   
-  inputs."github.com/yglukhov/wasmrt".owner = "nim-nix-pkgs";
-  inputs."github.com/yglukhov/wasmrt".ref   = "master";
-  inputs."github.com/yglukhov/wasmrt".repo  = "github.com/yglukhov/wasmrt";
-  inputs."github.com/yglukhov/wasmrt".dir   = "";
-  inputs."github.com/yglukhov/wasmrt".type  = "github";
-  inputs."github.com/yglukhov/wasmrt".inputs.nixpkgs.follows = "nixpkgs";
-  inputs."github.com/yglukhov/wasmrt".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
+  inputs."github-yglukhov-wasmrt".owner = "nim-nix-pkgs";
+  inputs."github-yglukhov-wasmrt".ref   = "master";
+  inputs."github-yglukhov-wasmrt".repo  = "github-yglukhov-wasmrt";
+  inputs."github-yglukhov-wasmrt".dir   = "master";
+  inputs."github-yglukhov-wasmrt".type  = "github";
+  inputs."github-yglukhov-wasmrt".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."github-yglukhov-wasmrt".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
   let 
