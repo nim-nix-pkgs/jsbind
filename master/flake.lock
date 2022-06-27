@@ -33,11 +33,11 @@
       },
       "locked": {
         "dir": "master",
-        "lastModified": 1651555492,
-        "narHash": "sha256-VaGL33EVLX9M9UyshNyb0X8WaOG3DhozaZ5K6fpgn90=",
+        "lastModified": 1656297751,
+        "narHash": "sha256-fKQDDwvWYr4/H02Obpdijhz+O+89wc4UjjGpFkxoX9Y=",
         "owner": "nim-nix-pkgs",
         "repo": "github-yglukhov-wasmrt",
-        "rev": "44f9b1095a4c2bde2b90813e9606df52aa2d9ba7",
+        "rev": "ccac9dd38ab2c7a639b071461f9b32c2153c0a06",
         "type": "github"
       },
       "original": {
